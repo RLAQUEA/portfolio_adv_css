@@ -69,108 +69,71 @@ nav a:hover {
 
 
 .hero-banner {
-    background-image: url(./assets/img/hero_banner.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("../img/hero-banner-img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     width: 100%;
-    height: 60%;
+    min-height: 35vh;
+    text-align: right;
+}
+
+.hero-banner div {
+  flex: 0 0 90% 0;
 }
 
 .hero-banner h2 {
     position: relative;
     background-color: var(--navigation_bar);
-    left: 80%;
+    left: 0%;
     top: 60%;
-    width: 300px;
+    width: 200px;
     text-align: center;
     font-size: 200%;
 }
 
-.header-pic {
-  width: 100%;
-  height: 100%;
-  position: relative;
+
+.main-wrapper {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-section figure {
-    display: flex;
-    position: relative;
-}
-
-section figcaption {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 90%;
-    right: 3%;
-    color: var(--section_font);
-    background-color: var(--navigation_bar); 
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-section .title-column {
-    /* border-right: var(--background);  */
-    background-image: linear-gradient(280deg, var(--navigation_bar) 0%, var(--background) 100%); 
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    /* background-color: #31353d; */
-    background-position: left;
-    height: 100px;
-    width: 100px;
-    left: 5%;
-    top: 60%;
-}
 
 .container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
-    width: 800px;
-    height: 200px;
-    margin: 10%;
-    position: absolute;
-    top: 55%;
-    left: 0%;
+    flex-wrap: wrap;
+    /* flex-grow: 100%; */
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 30px;
+    padding: 10px;
   }   
 
-.container h2 {
-  text-align: left;
-  display: flex;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  position: absolute;
+section h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 20px;
+  border-right: 5px solid var(--section_font);
+  font-size: 5vw;
+  line-height: 1.5;
 }
 
+section div {
+  flex: 0 0 78%;
+}
 
-  .container p {
-    display: block;
-    margin: 5%;
-    padding: 5%;
-  } 
+section p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 
-
-
-section h2 {
-    width: 600px;
-    height: 200px;
-    margin: 10%;
-    position: relative;
-    top: 50%;
-    left: 10%;
-  }
-
-  section p {
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    right: 12%;
-    top: 4;
-    top: 10%;
-  }
+/* flex item that grows */
+/* titles for the sections (about, work etc.) are 20% and the section info is 80% of the page */
 
 
   @media screen and (max-width: 992px) {
@@ -201,13 +164,4 @@ section h2 {
       justify-content: space-between;
       ;
     }
-
-    .container p {
-      display: flex;
-      flex-direction: wrap;
-      align-items: center;
-      }
-
   }
-
-  
