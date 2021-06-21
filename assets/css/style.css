@@ -107,7 +107,6 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex-grow: 100%; */
     justify-content: space-between;
     align-items: stretch;
     margin: 30px;
@@ -132,8 +131,42 @@ section p {
   margin-bottom: 3%;
 }
 
-/* flex item that grows */
-/* titles for the sections (about, work etc.) are 20% and the section info is 80% of the page */
+#contact div {
+  flex: 0 0 78%;
+}
+
+#contact a {
+  margin-top: 10%;
+  margin-bottom: 3%;
+} 
+
+
+.flex-container {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+  border: 4px solid var(--navigation_bar);
+  background-color: turquoise;
+  /* line 154 will become background image instead */
+  background-size: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 175px;
+}
+
+.flex-item:first-child {
+flex-basis: 100%;
+min-height: 200px;
+min-width: 600px;
+
+}
 
 
   @media screen and (max-width: 992px) {
@@ -163,5 +196,9 @@ section p {
       flex-wrap: wrap;
       justify-content: space-between;
       ;
+    }
+
+    address a {
+      flex-direction: column;
     }
   }
