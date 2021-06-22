@@ -121,7 +121,7 @@ section h2 {
   padding-right: 20px;
   border-right: 5px solid var(--section_font);
   font-size: 5vw;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 section div {
@@ -184,7 +184,7 @@ section p {
   align-items: flex-end;
   margin-top: 30px;
   border: 6px solid var(--navigation_bar);
-  /* background-image: url(""); */
+  /* background-image: url("../img/surf-report.png"); */
   background-size: 100%;
   min-height: 150px;
   max-height: 150px;
@@ -195,6 +195,7 @@ section p {
   flex-basis: 100%;
   min-height: 300px;
   min-width: 600px;
+  background-image: url("../img/surf-report.png");
 }
 
 .flex-item:first-child div {
@@ -206,6 +207,7 @@ section p {
   background-color: var(--navigation_bar);
   padding: 10px 20px;
   margin-bottom: 20px;
+  max-width: 30%;
   color: var(--section_font);
 
 }
@@ -214,7 +216,7 @@ section p {
   display: flex;
   align-items: flex-end;
   border: 6px solid var(--navigation_bar);
-  background-image: url("../img/keyboard.jpg");
+  background-image: url("../img/Work-Box-LED-Wall.png");
   background-size: 100%;
   min-height: 150px;
   max-height: 150px;
@@ -225,14 +227,33 @@ section p {
   display: flex;
   align-items: flex-end;
   border: 6px solid var(--navigation_bar);
-  background-image: url("../img/background1.png");
+  background-image: url("../img/Work-Box\ Calculator.png");
   background-size: 100%;
   min-height: 150px;
   max-height: 150px;
   min-width: 48%; 
 }
 
-
+.flex-item:nth-child(4) {
+  display: flex;
+  align-items: flex-end;
+  border: 6px solid var(--navigation_bar);
+  background-image: url("../img/Pastel-puzzles.png");
+  background-size: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 48%; 
+}
+.flex-item:nth-child(5) {
+  display: flex;
+  align-items: flex-end;
+  border: 6px solid var(--navigation_bar);
+  background-image: url("../img/Run-Buddy.png");
+  background-size: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 48%; 
+}
 
 
 .flex-item:hover {
