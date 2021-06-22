@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 /* colors for page background, name & dropdown menu */
 :root {
     --background: #31353d; 
@@ -140,13 +138,34 @@ section p {
   margin-bottom: 3%;
 } 
 
+.container .title-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 20%;
+  padding-right: 20%;
+  
+}    
+
+.container .title-contact {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 20%;
+  padding-left: 15%;
+}    
+
 
 .flex-container {
-  padding: 50px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
   justify-content: space-evenly;
 }
+
 
 .flex-item {
   display: flex;
