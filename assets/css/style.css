@@ -266,7 +266,8 @@ section p {
 
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  transition: 1s;
+  opacity: 70%;
 }
 
 .surf-report {
@@ -291,7 +292,6 @@ section p {
 
   }
   
-  
   @media screen and (max-width: 768px) {
     
     [class*="col-"] {
@@ -312,9 +312,54 @@ section p {
       flex-wrap: wrap;
       justify-content: space-evenly;
     }
+
+    .container .title-column {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 5%;
+      border-right: 0px;
+      border-top: 5px solid var(--section_font);
+      line-height: 2px;
+      min-width: 350px;
+      padding-right: 20%;     
+    }    
+
+  #work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    border-right: 0px;
+    border-top: 5px solid var(--section_font);
+    line-height: 2px;
+    min-width: 350px;
+    padding-right: 20%;  
+
+}
+
+  #contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    border-right: 0px;
+    border-top: 5px solid var(--section_font);
+    line-height: 2px;
+    min-width: 350px;
+    padding-right: 20%;     
   }
 
-  @media screen and (max-width: 576px) {
+}
+
+
+  @media screen and (max-width: 680px) {
 
 
     main {
@@ -339,7 +384,7 @@ section p {
       color: var(--section_font); 
 
     }
-    .container .title-column {
+    .container .title-contact {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -352,5 +397,16 @@ section p {
       min-width: 350px;
       padding-right: 20%;     
     }    
+
+#work {
+  display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+
+}
   }
+
+
 
