@@ -17,10 +17,6 @@ Link to Github Pages:  https://rlaquea.github.io/portfolio_adv_css/
 
 <img width="1426" alt="About-me" src="https://user-images.githubusercontent.com/30808137/123354620-0aba6180-d532-11eb-9921-e1cc02bfe309.png">
 
-<img width="1394" alt="Contact-me" src="https://user-images.githubusercontent.com/30808137/123354851-7a305100-d532-11eb-85f6-97488c48dd95.png">
-
 <img width="1421" alt="Work" src="https://user-images.githubusercontent.com/30808137/123355025-cb404500-d532-11eb-898c-0b768e24b72a.png">
 
-
-
-
+<img width="1394" alt="Contact-me" src="https://user-images.githubusercontent.com/30808137/123354851-7a305100-d532-11eb-85f6-97488c48dd95.png">
